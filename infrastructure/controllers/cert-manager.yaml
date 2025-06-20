@@ -33,5 +33,6 @@ spec:
       interval: 12h
   values:
     installCRDs: true
-    leaderElection:
-      namespace: "cert-manager"
+    global:
+      leaderElection:
+        namespace: "cert-manager"
